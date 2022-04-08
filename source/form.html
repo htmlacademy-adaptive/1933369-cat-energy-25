@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html class="main" lang="ru">
+
+<head class="inner-head">
+    <meta charset="utf-8">
+    <title>HTML Academy: Кэт энерджи</title>
+</head>
+
+<body class="inner-main">
+    <header class="main-header">
+        <div class="logo">
+            <a class="logo__link" href="#">
+                <img class="logo__picture" src="/source/img/logo.svg" alt="Логотип">
+            </a>
+            <a class="logo__headline" href="#">
+
+
+            </a>
+
+        </div>
+        <nav class="main-nav">
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+
+        </nav>
+
+    </header>
+    <main class="page-container">
+        <div class="question">
+            <h1 class="question__title">Подбор программы</h1>
+            <p class="question__text">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+            <div class="question__form">
+                <label class="question__name">ИМЯ:*</label>
+                <input class="question__name-item" type="text" placeholder="барсик">
+            </div>
+            <div class="question__form">
+                <label class="question__weight">Вес (кг):*</label>
+                <input class="question__weight-item" type="text" placeholder="7">
+            </div>
+            <div class="question__form">
+                <label class="question__age">Возраст (лет):</label>
+                <input class="question__age-item" type="text" placeholder="7">
+            </div>
+        </div>
+
+        <div class="choice">
+            <ul class="choice__list">
+                <li class="choice__item">
+                    <input class="choice__radio" type="radio" checked id="radio-1">
+                    <label class="choice__radio-1" for="radio-1">похудение</label>
+                </li>
+                <li class="choice__item">
+                    <input class="choice__radio" type="radio" id="radio-2">
+                    <label class="choice__radio-2" for="radio-2">набор массы</label>
+                </li>
+                <li class="choice__item">
+                    <input class="choice__radio" type="radio" id="radio-3">
+                    <label class="choice__radio-3" for="radio-3">не знаю (нужен ваш совет)</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contacts">
+            <h2 class="contacts__title">Контактные данные (владельца кота)</h2>
+            <div class="contacts__form">
+                <label class="contacts__mail">E-mail:*</label>
+                <input class="contacts__mail-item" type="text" placeholder="kuklachev@gmail.com">
+            </div>
+            <div class="contacts__form">
+                <label class="contacts__tel">Телефон:*</label>
+                <input class="contacts__tel-item" type="text" placeholder="8 (960) 900-60-90">
+            </div>
+        </div>
+
+        <div class="comment">
+            <h2 class="comment__title">Комментарий</h2>
+            <textarea cols="26" rows="7" placeholder="Расскажите обо всех повадках кота"></textarea>
+        </div>
+
+        <div class="more">
+            <h2 class="more__title">Дополнительно</h2>
+            <ul class="more__list">
+                <li class="more__item">
+                    <input class="more__checkbox" type="checkbox" checked id="option-1">
+                    <label class="more__checkbox-1" for="option-1">сахарозаменитель</label>
+                </li>
+                <li class="more__item">
+                    <input class="more__checkbox" type="checkbox" id="option-2">
+                    <label class="more__checkbox-2" for="option-2">питьевая вода</label>
+                </li>
+                <li class="more__item">
+                    <input class="more__checkbox" type="checkbox" id="option-3">
+                    <label class="more__checkbox-3" for="option-3">молоко</label>
+                </li>
+                <li class="more__item">
+                    <input class="more__checkbox" type="checkbox" id="option-4">
+                    <label class="more__checkbox-4" for="option-4">витамины</label>
+                </li>
+            </ul>
+
+            <button class="more__button" type="submit">отправить заявку</button>
+            <p class="more__desc">* — Обязательные поля</p>
+
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="welcome">
+            <p class="welcome__text">приглашаем к сотрудничеству дилеров!</p>
+            <p class="welcome__quote">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
+
+        <div class="map">
+            <img class="map__picture" src="/source/img/map.jpg" alt="Карта">
+        </div>
+
+        <div class="socials">
+            <a class="socials__logo" href="#">
+            </a>
+            <ul class="socials__list">
+                <li class="socials__item ">
+                    <a class="socials__vkontakte" href="#">
+                        <img class="social__picture" src="/source/img/vkontakte.svg" alt="">
+                    </a>
+                </li>
+                <li class="socials__item ">
+                    <a class="socials__youtube" href="#">
+                        <img class="social__picture" src="/source/img/youtube.svg" alt="">
+                    </a>
+                </li>
+                <li class="socials__item ">
+                    <a class="socials__telegram" href="#">
+                        <img class="social__picture" src="/source/img/telegram.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <a class="socials__button" href="#">HTML Academy</a>
+            <a class="socials__logo" href="">
+            </a>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
