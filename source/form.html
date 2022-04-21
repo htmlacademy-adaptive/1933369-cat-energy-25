@@ -39,31 +39,31 @@
                 Заполните анкету, и мы подберем программу питания для вашего кота
             </p>
             <div class="question__form">
-                <label class="question__name">ИМЯ:*</label>
-                <input class="question__name-item" type="text" placeholder="барсик" />
+                <label class="question__name" for="name">Имя:*</label>
+                <input class="question__name-item" type="text" placeholder="барсик" id="name" />
             </div>
             <div class="question__form">
-                <label class="question__weight">Вес (кг):*</label>
-                <input class="question__weight-item" type="text" placeholder="7" />
+                <label class="question__weight" for="weight">Вес (кг):*</label>
+                <input class="question__weight-item" type="text" placeholder="7" id="weight" />
             </div>
             <div class="question__form">
-                <label class="question__age">Возраст (лет):</label>
-                <input class="question__age-item" type="text" placeholder="7" />
+                <label class="question__age" for="age">Возраст (лет):</label>
+                <input class="question__age-item" type="text" placeholder="7" id="age" />
             </div>
         </div>
 
         <div class="choice">
             <ul class="choice__list">
                 <li class="choice__item">
-                    <input class="choice__radio" type="radio" checked id="radio-1" />
+                    <input class="choice__radio" type="radio" checked id="radio-1" name="contact" />
                     <label class="choice__radio-1" for="radio-1">похудение</label>
                 </li>
                 <li class="choice__item">
-                    <input class="choice__radio" type="radio" id="radio-2" />
+                    <input class="choice__radio" type="radio" id="radio-2" name="contact" />
                     <label class="choice__radio-2" for="radio-2">набор массы</label>
                 </li>
                 <li class="choice__item">
-                    <input class="choice__radio" type="radio" id="radio-3" />
+                    <input class="choice__radio" type="radio" id="radio-3" name="contact" />
                     <label class="choice__radio-3" for="radio-3">не знаю (нужен ваш совет)</label
             >
           </li>
@@ -73,12 +73,12 @@
       <div class="contacts">
         <h2 class="contacts__title">Контактные данные (владельца кота)</h2>
         <div class="contacts__form">
-          <label class="contacts__mail">E-mail:*</label>
-                    <input class="contacts__mail-item" type="text" placeholder="kuklachev@gmail.com" />
+          <label class="contacts__mail" for="mail">E-mail:*</label>
+                    <input class="contacts__mail-item" type="text" placeholder="kuklachev@gmail.com" id="mail" />
         </div>
         <div class="contacts__form">
-            <label class="contacts__tel">Телефон:*</label>
-            <input class="contacts__tel-item" type="text" placeholder="8 (960) 900-60-90" />
+            <label class="contacts__tel" for="tel">Телефон:*</label>
+            <input class="contacts__tel-item" type="text" placeholder="8 (960) 900-60-90" id="tel" />
         </div>
         </div>
 
@@ -126,26 +126,24 @@
         </div>
 
         <div class="socials">
-            <a class="socials__logo" href="#"> </a>
             <ul class="socials__list">
                 <li class="socials__item">
                     <a class="socials__vkontakte" href="#">
-                        <img class="social__picture" src="/source/img/vkontakte.svg" alt="" />
+                        <img class="socials__picture" src="/source/img/vkontakte.svg" alt="" />
                     </a>
                 </li>
                 <li class="socials__item">
                     <a class="socials__youtube" href="#">
-                        <img class="social__picture" src="/source/img/youtube.svg" alt="" />
+                        <img class="socials__picture" src="/source/img/youtube.svg" alt="" />
                     </a>
                 </li>
                 <li class="socials__item">
                     <a class="socials__telegram" href="#">
-                        <img class="social__picture" src="/source/img/telegram.svg" alt="" />
+                        <img class="socials__picture" src="/source/img/telegram.svg" alt="" />
                     </a>
                 </li>
             </ul>
             <a class="socials__button" href="#">HTML Academy</a>
-            <a class="socials__logo" href=""> </a>
         </div>
     </footer>
 </body>
